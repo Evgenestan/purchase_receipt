@@ -169,9 +169,9 @@ class _MyHomePageState extends State<MyHomePage> {
               color: Color(0xFFffffff),
               boxShadow: [
                 BoxShadow(
-                  color: Color(0xFFf4f4f4),
+                  color: Color(0xFFe7e7e7),
                   offset: Offset(0, 3),
-                  blurRadius: 5.0,
+                  blurRadius: 3.0,
                   spreadRadius: 1,
                 )
               ],
@@ -230,9 +230,9 @@ class _MyHomePageState extends State<MyHomePage> {
             color: Color(0xFFffffff),
             boxShadow: [
               BoxShadow(
-                color: Color(0xFFf4f4f4),
-                offset: Offset(0, 2.5),
-                blurRadius: 5.0,
+                color: Color(0xFFe7e7e7),
+                offset: Offset(0, 3),
+                blurRadius: 3.0,
                 spreadRadius: 2,
               )
             ],
@@ -284,25 +284,15 @@ class _MyHomePageState extends State<MyHomePage> {
             boxShadow: [
               BoxShadow(
                 color: Color(0xFFe7e7e7),
-                offset: Offset(0, 4),
-                blurRadius: 4.0,
+                offset: Offset(0, 3),
+                blurRadius: 3.0,
                 spreadRadius: 1,
               )
             ],
             clipper: MyCustomClipper(),
             child: Container(
               width: 340,
-              decoration: BoxDecoration(
-                color: Color(0xFFffffff),
-                boxShadow: [
-                  BoxShadow(
-                    color: Color(0xFFf4f4f4),
-                    offset: Offset(0, 2.5),
-                    blurRadius: 5.0,
-                    spreadRadius: 2,
-                  )
-                ],
-              ),
+              color: Color(0xFFffffff),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
